@@ -3,8 +3,6 @@
 Table of content:
 
 1.HEADER
-  1.1 Logo
-  1.2 Nav Bar
 
 2.MAIN
   2.1 Hero section
@@ -34,14 +32,10 @@ header{
   width: 80px;
 }
 
-
-/* 1.1 Logo */
-
-
-
-
-/* 1.2 Nav Bar */
-
+.header-bottom li img{
+  width: 20px;
+  cursor: pointer;
+}
 
 
 
@@ -57,8 +51,28 @@ main{
 
 /* 2.1 Hero section */
 
+.hero-section{
+  height: 500px;
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
 
 
+.hero-section img{
+  width: 250px;
+  margin: 30px 0;
+}
+
+.hero-section h2{
+  margin-bottom: 30px;
+}
+
+.hero-section .sc-button{
+  background-color: #CD3D0F;
+  padding: 10px 20px;
+  margin:0;
+}
 
 /* 2.2 Section.. */
 
