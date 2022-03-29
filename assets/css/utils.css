@@ -57,7 +57,7 @@ Table of content:
 
 section{
   padding: 50px 0;
-  height: 300px;
+  /* height: 300px; */
 }
 
 {
@@ -107,6 +107,7 @@ section{
 
 h1{
   margin-bottom: 30px;
+  color: #202020;
 }
 
 
@@ -124,6 +125,10 @@ h4{
   
 }
 
+h5{
+  color: #727272;
+}
+
 
 /* 2.2 Paragrafi */
 
@@ -135,7 +140,7 @@ p{
 /* 2.3 Piccole porzioni di testo */
 
 span{
-
+  color: #2876D0;
 }
 
 a{
