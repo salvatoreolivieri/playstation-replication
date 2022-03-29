@@ -77,7 +77,22 @@ main{
 
 
 
-/* 2.2 Section.. */
+/* 2.2 Section Card */
+
+.sc-card-container{
+  margin-bottom: 20px;
+}
+
+.sc-card-container img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
 
 
 .new-game-section{
@@ -149,6 +164,7 @@ footer{
 
 .footer-bottom img{
   width: 200px;
+  margin-bottom: 30px;
 }
 
 /* .footer-bottom-text-container{
