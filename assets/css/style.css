@@ -24,7 +24,14 @@ Table of content:
 */
 
 header{
+}
 
+.header-top{
+  height: 30px;
+}
+
+.header-top img{
+  width: 80px;
 }
 
 

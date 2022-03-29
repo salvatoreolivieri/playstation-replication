@@ -149,10 +149,10 @@ strong{
 
 /* 3.1 Bottoni */
 
-.button{
-
-}
-
-.button:hover{
-
+.sc-button{
+  padding: 0 10px;
+  background-color: #363636;
+  border: none;
+  border-radius: 40px;
+  margin: 0 20px;
 }
