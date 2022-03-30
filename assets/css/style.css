@@ -53,7 +53,7 @@ main{
 /* 2.1 Hero section */
 
 .hero-section{
-  height: 500px;
+  height:450px;
 
   background-image: url("../img/jumbo-bg.png");
   background-size: cover;
@@ -84,6 +84,7 @@ main{
 .sc-card-container{
   margin-bottom: 20px;
   cursor: pointer;
+  padding: 10px;
 }
 
 .sc-card-container img{
@@ -91,11 +92,18 @@ main{
   border-radius: 10px;
 }
 
+
+.active-card{
+  border-radius: 10px;
+  padding: 3px;
+  border: 2px solid #256ED0;
+}
+
 .raise:hover,
 .raise:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  transition: 0.5;
+  transition: 0,5s;
 }
 
 
@@ -206,7 +214,7 @@ main{
 
 .playstation-plus-section {
   /* height: 450px; */
-  padding: 0;
+  padding: 0px;
   background-color: #BEBCBB;
 }
 
@@ -240,6 +248,11 @@ main{
   padding: 0px;
 }
 
+.playstation-now-section img{
+  width: 70%;
+}
+
+
 .playstation-now-section .sc-button{
   background-color: #F5F5F5;
   color: #2F69E5;
@@ -261,6 +274,7 @@ main{
 .social-card-container{
   margin-bottom: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .social-section img{
