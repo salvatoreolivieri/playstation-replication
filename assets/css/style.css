@@ -229,6 +229,19 @@ main{
 
 .playstation-now-section{
   background-color: #161C3A;
+  padding: 0px;
+}
+
+.playstation-now-section .sc-button{
+  background-color: #F5F5F5;
+  color: #2F69E5;
+
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.playstation-now-section .left-column img{
+  width: 60%;
 }
 
 
