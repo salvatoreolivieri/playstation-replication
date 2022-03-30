@@ -194,6 +194,7 @@ main{
 }
 
 
+/* 2.6 Sezione Playstation plus */
 
 .playstation-plus-section {
   height: 450px;
@@ -201,12 +202,30 @@ main{
   background-color: #BEBCBB;
 }
 
+.playstation-plus-section .sc-button{
+  background-color: #D9DADC;
+  color: #2F69E5;
+
+  margin: 0;
+  padding: 10px 15px;
+}
 
 .playstation-plus-section img{
   height: 100%;
   width: 100%;
 }
 
+
+
+/* 2.7 Sezione Playstation Store */
+
+.playstation-store-container .sc-card-container img{
+  border-radius: 0;
+}
+
+
+
+/* 2.8 Sezione Playstation Now */
 
 .playstation-now-section{
   background-color: #161C3A;
