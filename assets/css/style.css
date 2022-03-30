@@ -184,6 +184,16 @@ main{
 }
 
 
+/* 2.5 Sezione Playstation 4 */
+
+.playstation-4-section .sc-button{
+  background-color: #2D64E6;
+
+  margin: 0;
+  padding: 10px 15px;
+}
+
+
 
 .playstation-plus-section {
   height: 450px;
