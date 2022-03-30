@@ -205,7 +205,7 @@ main{
 /* 2.6 Sezione Playstation plus */
 
 .playstation-plus-section {
-  height: 450px;
+  /* height: 450px; */
   padding: 0;
   background-color: #BEBCBB;
 }
@@ -248,13 +248,20 @@ main{
   padding: 10px 15px;
 }
 
-.playstation-now-section .left-column img{
-  width: 60%;
+
+
+
+.playstation-now-column{
+  padding: 15px;
 }
 
 
-
 /* 2.9 Sezione Social */
+
+.social-card-container{
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
 
 .social-section img{
   width: 120px;
@@ -273,15 +280,12 @@ footer{
 }
 
 
-.footer-top,
-.footer-bottom{
-  width: 90%;
-  margin: 0 auto;
-}
-
-
 
 /* Footer Top  */
+
+.footer-top{
+  padding-top: 100px;
+}
 
 .footer-top img{
   width: 120px;
@@ -313,6 +317,10 @@ footer{
 
 
 /* Footer Bottom  */
+
+.footer-bottom{
+  padding-bottom: 100px;
+}
 
 .footer-bottom img{
   width: 200px;
