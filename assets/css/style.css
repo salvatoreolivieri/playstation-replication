@@ -83,11 +83,19 @@ main{
 
 .sc-card-container{
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .sc-card-container img{
   width: 100%;
   border-radius: 10px;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: 0.5;
 }
 
 
@@ -246,6 +254,14 @@ main{
 
 
 
+/* 2.9 Sezione Social */
+
+.social-section img{
+  width: 120px;
+  height: 100%;
+  border-radius: 0px;
+}
+
 
 /*
 3.FOOTER
@@ -253,8 +269,6 @@ main{
 
 footer{
   background-color: #16439C;
-  height: 600px;
-
   color: white;
 }
 
@@ -289,6 +303,10 @@ footer{
 
 .footer-top nav ul li a:hover{
   text-decoration: underline;
+}
+
+.sc-ul{
+  padding-left: 0px;
 }
 
 
