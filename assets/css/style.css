@@ -55,8 +55,6 @@ main{
 .hero-section{
   height: 500px;
 
-
-
   background-image: url("../img/jumbo-bg.png");
   background-size: cover;
   background-position: center;
@@ -150,6 +148,10 @@ main{
   height: 600px;
 
   padding: 0px;
+
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .take-two-section img{
@@ -168,12 +170,17 @@ main{
   margin:0;
 }
 
+.take-two-container{
+  margin-top: 20px;
+}
 
 
 
+/* 2.5 Sezione nuove uscite */
 
 .new-game-section{
   background-color: #202020;
+  color: white;
 }
 
 
