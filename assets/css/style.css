@@ -6,8 +6,8 @@ Table of content:
 
 2.MAIN
   2.1 Hero section
-  2.2 Sezione ...
-  2.3 Sezione ...
+  2.2 Sezione 1
+  2.3 Sezione 2
   ...
 
 3.FOOTER
@@ -20,9 +20,6 @@ Table of content:
 /*
 1.HEADER
 */
-
-header{
-}
 
 .header-top{
   height: 30px;
@@ -44,10 +41,6 @@ header{
 /*
 2.MAIN
 */
-
-main{
-  
-}
 
 
 /* 2.1 Hero section */
@@ -197,6 +190,10 @@ main{
 .new-game-section{
   background-color: #202020;
   color: white;
+}
+
+.new-game-section .sc-card-container img{
+  margin-bottom: 10px;
 }
 
 

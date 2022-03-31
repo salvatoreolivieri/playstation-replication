@@ -4,15 +4,9 @@ Table of content:
 
 0.DEBUG
 
-1.LAYOUT
-  1.1 Contenitori
-  1.2 Float
-  1.3 Flex
-
-2.TESTI
-  2.1 Titoli
-  2.2 Paragrafi
-  2.3 Piccole porzioni di testo
+1.TESTI
+  1.1 Titoli
+  1.2 Piccole porzioni di testo
   ...
 
 3.OGGETTI
@@ -30,65 +24,8 @@ Table of content:
   border: 1px solid black;
 }
 
-
-
-/*
-1.LAYOUT
-*/
-
-.w90{
-  width: 90%;
-}
-
-.w50{
-  width: 50%;
-}
-
-.w60{
-  width: 60%;
-}
-
-.w40{
-  width: 40%;
-}
-
-
-/* 1.1 Contenitori */
-
 section{
   padding: 50px 0;
-  /* height: 300px; */
-}
-
-
-/* 1.2 Float */
-
-.clearfix::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.float-left{
-  float: left;
-}
-
-.float-right{
-  float: right;
-}
-
-
-/* 1.3 Flex */
-
-/* (già allineato al centro) */
-.flexbox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-item{
-  
 }
 
 
@@ -104,45 +41,18 @@ h1{
 }
 
 
-h2{
-  
-}
-
-
-h3{
-  
-}
-
-
-h4{
-  
-}
-
 h5{
   color: #727272;
 }
 
 
-/* 2.2 Paragrafi */
 
-p{
-
-}
-
-
-/* 2.3 Piccole porzioni di testo */
+/* 2.2 Piccole porzioni di testo */
 
 span{
   color: #2876D0;
 }
 
-a{
-
-}
-
-strong{
-
-}
 
 
 
